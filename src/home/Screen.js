@@ -96,7 +96,7 @@ const Home = () => {
                             paddingHorizontal: 20,
                         }}
                     >
-                        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingBottom: 8, paddingHorizontal: 16 }}>
                             <Arrow
                                 title='Skip'
                                 icon={require('../../assets/icons/arrow-left.png')}
